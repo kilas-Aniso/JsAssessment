@@ -5,7 +5,7 @@ console.log(c)
 
 function stringg(food){
     for(let i=0;i<food.length; i++)
-    return food.reverse
+    return (food.split(``).reverse(``).join(``))
 
 }
 // 2. Write a function that takes in the following array and consoles the target if it is found else
@@ -58,7 +58,7 @@ console.log(a);
 function array(numArray){
     let b = [];
     for(let i =0; i<numArray.length; i++){
-        b+=numArray[i]*4
+        b+=[numArray[i]*4]
     }
     return b
 }
